@@ -1,0 +1,20 @@
+{
+  "name": "level-partition",
+  "version": "0.0.0",
+  "description": "extend level db to error if you write outside of a specified range of keys.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Ryan Day <soldair@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pull-through": "~1.0.7",
+    "binarysearch": "~0.2.0"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4",
+    "memdown": "~0.2.0",
+    "levelup": "~0.10.0"
+  }
+}
