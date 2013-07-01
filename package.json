@@ -1,7 +1,7 @@
 {
   "name": "level-partition-check",
   "version": "0.0.0",
-  "description": "return a sublevel that to error if you write outside of a specified range of keys.",
+  "description": "return a sublevel that will error if you attrempt write outside of a specified range of keys.",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
@@ -16,5 +16,9 @@
     "tape": "~1.0.4",
     "memdown": "~0.2.0",
     "levelup": "~0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/level-partition-check.git"
   }
 }
