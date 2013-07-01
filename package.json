@@ -1,7 +1,7 @@
 {
-  "name": "level-partition",
+  "name": "level-partition-check",
   "version": "0.0.0",
-  "description": "extend level db to error if you write outside of a specified range of keys.",
+  "description": "return a sublevel that to error if you write outside of a specified range of keys.",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
@@ -9,8 +9,8 @@
   "author": "Ryan Day <soldair@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "pull-through": "~1.0.7",
-    "binarysearch": "~0.2.0"
+    "string-range": "~1.2.1",
+    "level-sublevel": "~4.7.0"
   },
   "devDependencies": {
     "tape": "~1.0.4",
